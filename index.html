@@ -16,7 +16,6 @@
     padding: 30px 20px;
   }
 
-  /* Header */
   .header {
     text-align: center;
     margin-bottom: 40px;
@@ -52,7 +51,6 @@
     font-weight: 600;
   }
 
-  /* Flow arrow between units */
   .flow-container {
     display: flex;
     flex-direction: column;
@@ -75,7 +73,6 @@
     box-shadow: 0 14px 40px rgba(0,0,0,0.15);
   }
 
-  /* Unit colors */
   .unit-1 { background: linear-gradient(135deg, #fff0f7, #ffd6eb); border: 2.5px solid #ff85c2; }
   .unit-2 { background: linear-gradient(135deg, #fff7e6, #ffe5b4); border: 2.5px solid #ffb347; }
   .unit-3 { background: linear-gradient(135deg, #e8f4fd, #c8e6ff); border: 2.5px solid #5aabff; }
@@ -118,7 +115,6 @@
   .unit-2 .unit-number { color: #b8720a; }
   .unit-3 .unit-number { color: #1d5fa4; }
 
-  /* Lessons grid */
   .lessons-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -160,9 +156,7 @@
   .unit-2 .lesson-num { background: linear-gradient(135deg, #ff9f43, #b8720a); }
   .unit-3 .lesson-num { background: linear-gradient(135deg, #3b82f6, #1d5fa4); }
 
-  .lesson-text {
-    flex: 1;
-  }
+  .lesson-text { flex: 1; }
   .lesson-text .lesson-id {
     font-size: 0.68rem;
     font-weight: 700;
@@ -180,20 +174,18 @@
   }
   .lesson-text .lesson-subtitle {
     font-size: 0.88rem;
+    font-weight: 700;
     color: #16a34a;
     font-style: normal;
-    font-weight: 700;
     margin-top: 2px;
     line-height: 1.35;
   }
 
-  /* Arrow connector */
   .arrow-connector {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 6px 0;
-    z-index: 1;
   }
   .arrow-line {
     width: 3px;
@@ -211,7 +203,6 @@
   .arrow-2 .arrow-line { background: #ffb347; }
   .arrow-2 .arrow-head { border-top: 14px solid #ffb347; }
 
-  /* Footer */
   .footer {
     text-align: center;
     margin-top: 36px;
@@ -229,14 +220,12 @@
 </head>
 <body>
 
-<!-- HEADER -->
 <div class="header">
   <div class="grade-badge">🌟 Kindergarten · Social Studies</div>
   <h1>The Story of <span>Self</span></h1>
   <p>Scope &amp; Sequence · Unit Flow &amp; Lesson Guide</p>
 </div>
 
-<!-- FLOW -->
 <div class="flow-container">
 
   <!-- UNIT 1 -->
@@ -249,7 +238,7 @@
       </div>
     </div>
     <div class="lessons-grid">
-      <a class="lesson-card" href="#k11" title="Lesson K.1.1">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1kEngSc35tDI51Lh1oc-GuIKWX8OlLUCCO2lD8vNXr2A/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.1.1</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 1</span>
@@ -257,7 +246,7 @@
           <div class="lesson-subtitle">Todo el mundo cabe aquí</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k12" title="Lesson K.1.2">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1q9KYiZSkQFdJopg-UdP_e-uR0dro0pkGkzmP2Yhmlbk/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.1.2</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 2</span>
@@ -265,7 +254,7 @@
           <div class="lesson-subtitle">Nuestros nombres son importantes</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k13" title="Lesson K.1.3">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1beWxgDweU7ZYlc0T66xyQ8TOKIjjEjUcGr--90_7NFo/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.1.3</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 3</span>
@@ -273,7 +262,7 @@
           <div class="lesson-subtitle">A veces escuchamos Blablablá</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k14" title="Lesson K.1.4">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1W8EI9lBOv8YvOLvT3f_pyh26QE3RonYwJixRcB6GJ2U/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.1.4</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 4</span>
@@ -281,12 +270,11 @@
           <div class="lesson-subtitle">Nosotros podemos ser amables</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k15" title="Lesson K.1.5">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1KdGCIDaMdGTy6UCKiZiYSCVUKkNhHgaWB7RWVuBi63E/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.1.5</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 5</span>
           <div class="lesson-title">I Am a Kindergartner</div>
-          <div class="lesson-subtitle">&nbsp;</div>
         </div>
       </a>
     </div>
@@ -308,21 +296,21 @@
       </div>
     </div>
     <div class="lessons-grid">
-      <a class="lesson-card" href="#k21" title="Lesson K.2.1">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1F5N4OQ3xQiW-JGpgAM_tCE-ssbkQ0ZyxjHgYGidVkhc/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.2.1</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 1</span>
           <div class="lesson-title">All Families Are Welcome in Our Classroom</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k22" title="Lesson K.2.2">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1j7erZQ_VCuleqTiurI3CmaIyFxm9OM--TYDbGq2mbj4/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.2.2</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 2</span>
           <div class="lesson-title">Our School Neighbors</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k23" title="Lesson K.2.3">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1vHBJRysyZNBqOn0xaI__BpKzGQugbzpcIks2S3NS1sk/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.2.3</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 3</span>
@@ -330,14 +318,14 @@
           <div class="lesson-subtitle" style="color: #2d2d5e;">Cowlitz Indian Tribe</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k24" title="Lesson K.2.4">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1TiKkPJ_5gQPtGf5xrT4M-IwGfBmpMx_rvTwcCRfQiIs/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.2.4</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 4</span>
           <div class="lesson-title">Clothes for Every Season</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k25" title="Lesson K.2.5">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1iNPTQGp5I9J1m9bxELxLQDLKg4hQ0UspYiulQzY2jAc/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.2.5</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 5</span>
@@ -364,7 +352,7 @@
       </div>
     </div>
     <div class="lessons-grid">
-      <a class="lesson-card" href="#k31" title="Lesson K.3.1">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1pacrrYVRWwyHRlrFl-PWCc7wK4Cnf-_pZBHBcccgq2A/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.3.1</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 1</span>
@@ -372,7 +360,7 @@
           <div class="lesson-subtitle">Nuestra familia de clase</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k32" title="Lesson K.3.2">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1KO873tQHjPG_Gh9muiOpNb3Cf7Lru3xCNJ7C3h0O76U/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.3.2</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 2</span>
@@ -380,21 +368,21 @@
           <div class="lesson-subtitle">¡Di algo!</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k33" title="Lesson K.3.3">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1xID9Rs9RtbCCnMXJCQpZSB2ZSV-7ThjCwHDstomnNl8/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.3.3</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 3</span>
           <div class="lesson-title">Our Class Can Help</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k34" title="Lesson K.3.4">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1XhMPoKMQUZ5KRof8hE0qX3nL-rXeX-7uO3u0fEnvwII/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.3.4</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 4</span>
           <div class="lesson-title">Needs and Wants</div>
         </div>
       </a>
-      <a class="lesson-card" href="#k35" title="Lesson K.3.5">
+      <a class="lesson-card" href="https://docs.google.com/document/d/1VgGwOdq-6awt3bdIgQUy_IoBCyzDIQxuVNOtH11JI8k/edit?usp=drive_link" target="_blank">
         <div class="lesson-num">K.3.5</div>
         <div class="lesson-text">
           <span class="lesson-id">Lesson 5</span>
@@ -406,7 +394,7 @@
 
 </div>
 
-<div class="footer">Kindergarten Social Studies · 3 Units · 15 Lessons &nbsp;|&nbsp; Click any lesson card to navigate</div>
+<div class="footer">Kindergarten Social Studies · 3 Units · 15 Lessons &nbsp;|&nbsp; Click any lesson card to open the lesson</div>
 
 </body>
 </html>
